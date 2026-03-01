@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f5f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border: 1px solid #e0e4ea;
+  width: 540px;
+  padding: 48px;
+  border-radius: 10px;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 8px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.head h1 {
+     font-size: 24px;
+  color: #0E121B;
+}
+
+
+.head p {
+     font-size: 14px;
+  color: #0E121B;
+}
+
+form {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+form .email {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+form .email label {
+  font-size: 14px;
+  color: #0E121B;
+}
+
+form .email input {
+  padding: 12px;
+  border: 1px solid #E0E4EA;
+  border-radius: 8px;
+  padding: 12px 16px;
+  background-color: #FFFFFF;
+}
+
+form .email input::placeholder {
+  color: #717784;
+  font-size: 14px;
+}
+
+form .email input:focus {
+  outline: none;
+}
+
+button {
+  width: 444px;
+  padding: 12px 16px  ;
+  background-color: #335CFF;
+  color: #FFFFFF;
+  border: 1px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .logo-div {
+    width: 444px;
+    height: 36px;
+    padding-bottom: 8px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    width: 444px;
+    height: 55px;
+    gap: 8px;
+} */
