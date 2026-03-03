@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f5f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border: 1px solid #e0e4ea;
+  width: 540px;
+  padding: 48px;
+  border-radius: 10px;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 8px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.head h1 {
+     font-size: 24px;
+  color: #0E121B;
+}
+
+
+.head p {
+     font-size: 14px;
+  color: #0E121B;
+}
+
+form {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} 
+
+.cnp {
+    display: flex;
+    gap: 10px;
+    width: 444px;
+}
+
+label {
+    width: 444px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    gap: 1px;
+    letter-spacing: 0.2px;
+    color: #0E121B;
+}
+
+input {
+    width: 444px;
+    height: 44px;
+    border-radius: 8px;
+    padding-top: 12px 16px;
+    gap: 8px;
+     border: 1px solid #e0e4ea;
+}
+
+form button {
+  padding: 12px 16px ;
+  background-color: #335CFF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 444px;
+  cursor: pointer;
+}
